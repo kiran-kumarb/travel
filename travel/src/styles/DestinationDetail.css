@@ -1,0 +1,82 @@
+.loading {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.destination-image {
+  width: 100%;         /* Full width of the container */
+  height: 400px;       /* Fixed height */
+  object-fit: contain; /* Ensure the image is fully displayed */
+  border-radius: 10px; /* Optional: rounded corners */
+  background-color: #f4f4f4; /* Add a background color for empty space */
+}
+
+
+.destination-info {
+  margin-top: 15px;
+}
+
+.price {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+.travel-modes {
+  margin-top: 20px;
+}
+
+.travel-modes h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.travel-modes ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.travel-modes li {
+  margin: 5px 0;
+  font-size: 1.1em;
+}
+
+.destination-booking {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.book-now-btn {
+  padding: 12px 24px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.book-now-btn:hover {
+  background-color: #45a049;
+}
+.destination-detail-header {
+  display: flex;
+  justify-content: center; /* Centers the content horizontally */
+  align-items: center;    /* Centers the content vertically (if needed) */
+  text-align: center;
+  margin-top: 20px;
+}
+
+.destination-detail-header h2 {
+  font-size: 2em;        /* Increase font size for emphasis */
+  font-weight: bold;     /* Make it bold */
+  color: #333;           /* Dark color for visibility */
+  margin: 0;             /* Remove default margins */
+}
